@@ -6,7 +6,7 @@ items = list(range(0, 57))
 l = len(items)
 
 #link question
-linkquestion = input("Enter the link of YouTube video you want to download:  ")
+linkquestion = input("Enter the link:  ")
 yt = YouTube(linkquestion)
 
 #details
